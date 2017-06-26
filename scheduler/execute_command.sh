@@ -3,7 +3,7 @@
 #Code to execute list of bash script present in particular location 
 #Input Parameter : directory path where list of bash script present for execution
 
-
+exec >> scheduler.log
 count=0
 CODE_EXECUTION_PATH=$1
 echo " executing code  present in ${CODE_EXECUTION_PATH} ....."

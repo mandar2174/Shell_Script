@@ -6,6 +6,7 @@
 #How to execute code : 
 #bash run_scheduler.sh /home/mandar/scheduler/run_code
 
+exec >> scheduler.log
 CODE_EXECUTION=$1
 
 echo "Scheduler Started for process file present at ${CODE_EXECUTION} "
